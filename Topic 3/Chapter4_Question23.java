@@ -14,7 +14,7 @@ public class Chapter4_Question23 {
 		payroll1.setftaxrate(input.nextDouble());
 		System.out.print("Enter state tax withholding rate: ");
 		payroll1.setstaxrate(input.nextDouble());
-	
+		input.close();
 		System.out.print("Employee Name: " + payroll1.getname() +"\nHours Worked: " + payroll1.gethour() + "\nPay Rate: $" + payroll1.getrate() + "\nGross Pay: $"+ payroll1.gpay() + "\nDeductions: \nFederal Withholding ("+payroll1.getftaxrate()*100+ "%): "+payroll1.getftaxrate()*payroll1.gpay()+"\nState Withholdings ("+payroll1.getstaxrate()*100+ "%): "+payroll1.getstaxrate()*payroll1.gpay()+"\nTotal Deduction: "+(payroll1.gpay()*payroll1.getftaxrate() + payroll1.gpay()*payroll1.getstaxrate())+ "\nNet Pay: "+payroll1.npay());
 	}
 
