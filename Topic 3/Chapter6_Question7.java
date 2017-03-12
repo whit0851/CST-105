@@ -13,7 +13,7 @@ public class Chapter6_Question7 {
 		
 		for (int i=1; i <= 30; i++){
 			invested = futureInvestmentValue(invested, mrate, 1);
-			System.out.print(i + "     " + invested + "\n" );
+			System.out.printf(i + "     " + invested + "\n" );
 			
 		}
 	}
