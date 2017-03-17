@@ -34,7 +34,7 @@ public class Chapter10_Question7 {
 			id = input.nextInt();
 			x=0;
 	}
-
+input.close();
 }
 }
 	class Account{
